@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    /* background-color: #201a1a; */
+}
+
+.navbar{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding-left: 48px;
+    
+}
+.logo{
+    background-image: url("/Spotify-Logo-png-RGB-White.png");
+    height: 35px;
+    width: 116px;
+    background-size: cover;
+}
+.nav_logo{
+    height: 35px;
+    width: 116px;
+}
+
+/* hero section */
+.hero{
+    padding: 32px;
+    /* border: 2px solid black; */
+    background-color: #171717;
+}
+.content{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    
+    margin:auto ;
+    width: 60%;
+    background-color: black;
+    border-radius: 10px;
+    
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font: 700;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    font-size: x-large;
+}
+.button{
+
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.b1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 45px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    border: 0.2px solid gray;
+    /* margin-left: -2px; */
+    
+   
+}
+
+.b1 img{
+    height: 24px;
+    width: 24px;
+}
+.b1 span{
+
+    margin-left: 15px;
+ }
+.b1:hover{
+    border: 2px solid white;
+}
+
+hr{
+    width: 75%;
+    margin:50px auto;
+    height: 0.2px;
+    
+}
+.element{
+    /* border-bottom: 2px solid white; */
+    /* border-bottom: 2px solid; */
+    
+    height: 420px;
+}
+/* .border{
+    border-top: 1px solid white;
+    margin-top: 45px; 
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+} */
+
+.section_3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+img{
+    height: 70%;
+    width: 10%;
+}
+.login{
+    width: 320px;
+    /* border: 2px solid red; */
+    padding: 20px;
+    
+} 
+
+.cont{
+    /* border:  2px  solid white; */
+    margin-bottom: 10px;
+}
+.fill_box{
+    display: flex;
+    align-items: center;
+    /* border:  2px solid green; */
+    background-color: #121212;
+    border-radius: 4px;
+
+}
+.input_text{
+    width:  100%;
+    height: 45px;
+    background-color: #121212;
+    color: white;
+    /* margin-top: 12px;
+    margin-bottom: 28px; */
+    border-style:none;
+    padding-left: 10px;
+}
+.fill_box:hover{
+    border: 1px solid white;
+}
+h1{
+    font-size: 210%;
+}
+
+.icon{
+    display: flex;
+    position:absolute;
+    margin-top: 10px;
+    
+}
+.login_btn{
+    padding-top: 30px;
+}
+.forgot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+    margin-bottom: 10px;
+    
+}
+.login_btn button{
+    background-color: #1ed760;
+    color: black;
+    font-weight: 500;
+    
+}
+.login_btn button:hover{
+    border: 5px solid #1ed760;
+}
+
+/* i{
+    padding-right: 10px;
+} */
+
+.link div{
+    margin-right: 10px;
+}
+
+.link div a:hover{
+   color: #1ed760;
+}
